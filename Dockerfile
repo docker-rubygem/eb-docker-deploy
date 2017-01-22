@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.9
+ENV VERSION=0.1.0
 
 RUN gem install eb-docker-deploy --version ${VERSION} --no-format-exec
 
